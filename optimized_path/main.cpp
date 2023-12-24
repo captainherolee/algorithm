@@ -75,4 +75,3 @@ int main(int argc, char** argv) {
         cout << "#" << t << ' ' << solve(0, 1) << endl;
     }
     return 0;
-}
