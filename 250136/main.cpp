@@ -35,7 +35,7 @@ int solution(int** land, size_t land_rows, size_t land_cols) {
 
     // check, arr, visited 생성 및 초기화
     check = (int *)malloc(sizeof(int) * land_cols);
-    arr = (int *)malloc(sizeof(int) *l and_cols);
+    arr = (int *)malloc(sizeof(int) * land_cols);
     for (int i = 0; i < land_cols; i++) {
         arr[i] = 0;
         check[i] = 0;
