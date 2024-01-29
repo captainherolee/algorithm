@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/namsulee/source/hero_algo/string_matching/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z16create_directoryPKc, symObjAddr: 0x0, symBinAddr: 0x10000383C, symSize: 0x40 }
+  - { offsetInCU: 0x89, offset: 0x89, size: 0x8, addend: 0x0, symName: __Z16create_directoryPKc, symObjAddr: 0x0, symBinAddr: 0x10000383C, symSize: 0x40 }
+  - { offsetInCU: 0xC3, offset: 0xC3, size: 0x8, addend: 0x0, symName: __Z11starts_withPKcS0_, symObjAddr: 0x40, symBinAddr: 0x10000387C, symSize: 0x84 }
+  - { offsetInCU: 0x119, offset: 0x119, size: 0x8, addend: 0x0, symName: __Z13add_directoryPP9DirectoryPKc, symObjAddr: 0xC4, symBinAddr: 0x100003900, symSize: 0x110 }
+  - { offsetInCU: 0x16B, offset: 0x16B, size: 0x8, addend: 0x0, symName: __Z16remove_directoryPP9DirectoryPKc, symObjAddr: 0x1D4, symBinAddr: 0x100003A10, symSize: 0xD0 }
+  - { offsetInCU: 0x1D9, offset: 0x1D9, size: 0x8, addend: 0x0, symName: __Z14copy_directoryPP9DirectoryPKcS3_, symObjAddr: 0x2A4, symBinAddr: 0x100003AE0, symSize: 0x168 }
+  - { offsetInCU: 0x255, offset: 0x255, size: 0x8, addend: 0x0, symName: __Z15execute_commandPP9DirectoryPKc, symObjAddr: 0x40C, symBinAddr: 0x100003C48, symSize: 0x170 }
+  - { offsetInCU: 0x2B5, offset: 0x2B5, size: 0x8, addend: 0x0, symName: __Z17print_directoriesP9Directory, symObjAddr: 0x57C, symBinAddr: 0x100003DB8, symSize: 0x64 }
+  - { offsetInCU: 0x2EB, offset: 0x2EB, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x5E0, symBinAddr: 0x100003E1C, symSize: 0xB8 }
+...

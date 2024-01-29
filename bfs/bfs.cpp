@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <vector>
+#include <queue>
+#include <iostream>
 #define N_MAX 100000
 using namespace std;
 
@@ -16,6 +18,31 @@ void dfs(int here)
     }
 }
 
+void bfs(vector<vector<int>> v, int start) {
+    queue<int> q;
+    bool *visited;
+    visited = new bool[v.size()];
+    memset(visited, 0, sizeof(bool) * v.size());
+
+    q.push(start);
+    visited[start] = 1;
+    int curNode;
+
+    cout << start + 1;
+    while (!q.empty()) {
+        curNode = q.front();
+        q.pop();
+
+        for (int i = 0; i < v[curNode].size(); i++) {
+            if (visited[v[curNode][i]] == false) {
+                cout << " " << v[curNode][i] + 1;
+                visited[v[curNode][i]] = true;
+                q.push(v[curNode][i]);
+            }
+        }
+    }
+    cout << '\n';
+}
 int main()
 {
     int i;
@@ -28,17 +55,22 @@ int main()
         v[le].push_back(ri);
         v[ri].push_back(le);
     }
+
+    queue<int> sQ;
+
     int st, ed, q[N_MAX];
     st = ed = -1;
 
-    q[++ed] = 1; chk[1] = 1;
-    while (st < ed) {
-        int here = q[++st];
+    sQ.push(1);
+    chk[1] = 1;
+    while (!sQ.empty()) {
+        int here = sQ.front();
         printf("%d ", here);
+        sQ.pop();
         for (i = 0; i < v[here].size(); i++) {
             if (!chk[v[here][i]]) {
                 chk[v[here][i]] = 1;
-                q[++ed] = v[here][i];
+                sQ.push(v[here][i]);
             }
         }
     }

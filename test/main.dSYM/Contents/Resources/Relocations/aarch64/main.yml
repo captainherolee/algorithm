@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/namsulee/source/hero_algo/test/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z23initializeDirectoryListP13DirectoryList, symObjAddr: 0x0, symBinAddr: 0x1000034B0, symSize: 0x18 }
+  - { offsetInCU: 0x86, offset: 0x86, size: 0x8, addend: 0x0, symName: __Z23initializeDirectoryListP13DirectoryList, symObjAddr: 0x0, symBinAddr: 0x1000034B0, symSize: 0x18 }
+  - { offsetInCU: 0xAE, offset: 0xAE, size: 0x8, addend: 0x0, symName: __Z12addDirectoryP13DirectoryListPKc, symObjAddr: 0x18, symBinAddr: 0x1000034C8, symSize: 0x138 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: __Z15removeDirectoryP13DirectoryListPKc, symObjAddr: 0x150, symBinAddr: 0x100003600, symSize: 0xE0 }
+  - { offsetInCU: 0x16E, offset: 0x16E, size: 0x8, addend: 0x0, symName: __Z27convertDirectoryListToArrayP13DirectoryListPm, symObjAddr: 0x230, symBinAddr: 0x1000036E0, symSize: 0x108 }
+  - { offsetInCU: 0x1EE, offset: 0x1EE, size: 0x8, addend: 0x0, symName: __Z13copyDirectoryP13DirectoryListPKcS2_, symObjAddr: 0x338, symBinAddr: 0x1000037E8, symSize: 0x2D8 }
+  - { offsetInCU: 0x2D4, offset: 0x2D4, size: 0x8, addend: 0x0, symName: __Z15executeCommandsP13DirectoryListPPKcm, symObjAddr: 0x610, symBinAddr: 0x100003AC0, symSize: 0x190 }
+  - { offsetInCU: 0x37B, offset: 0x37B, size: 0x8, addend: 0x0, symName: __Z8solutionPPKcmS1_m, symObjAddr: 0x7A0, symBinAddr: 0x100003C50, symSize: 0xA0 }
+  - { offsetInCU: 0x417, offset: 0x417, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x840, symBinAddr: 0x100003CF0, symSize: 0x158 }
+...

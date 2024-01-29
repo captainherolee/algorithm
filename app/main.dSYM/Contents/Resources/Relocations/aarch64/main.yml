@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/namsulee/source/hero_algo/app/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z15get_day_of_weekPKc, symObjAddr: 0x0, symBinAddr: 0x1000038D4, symSize: 0x15C }
+  - { offsetInCU: 0x46, offset: 0x46, size: 0x8, addend: 0x0, symName: __Z15get_day_of_weekPKc, symObjAddr: 0x0, symBinAddr: 0x1000038D4, symSize: 0x15C }
+  - { offsetInCU: 0x72, offset: 0x72, size: 0x8, addend: 0x0, symName: __Z13is_login_datePKcPS0_m, symObjAddr: 0x15C, symBinAddr: 0x100003A30, symSize: 0xAC }
+  - { offsetInCU: 0xD6, offset: 0xD6, size: 0x8, addend: 0x0, symName: __Z8solutionPKcS0_PS0_m, symObjAddr: 0x208, symBinAddr: 0x100003ADC, symSize: 0x330 }
+  - { offsetInCU: 0x20F, offset: 0x20F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x538, symBinAddr: 0x100003E0C, symSize: 0xC0 }
+...

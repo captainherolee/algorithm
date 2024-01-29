@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/namsulee/source/hero_algo/top/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z3dfsPPimiiS_i, symObjAddr: 0x0, symBinAddr: 0x100003B2C, symSize: 0x14C }
+  - { offsetInCU: 0x52, offset: 0x52, size: 0x8, addend: 0x0, symName: __Z3dfsPPimiiS_i, symObjAddr: 0x0, symBinAddr: 0x100003B2C, symSize: 0x14C }
+  - { offsetInCU: 0xF8, offset: 0xF8, size: 0x8, addend: 0x0, symName: __Z8solutionPPimmi, symObjAddr: 0x14C, symBinAddr: 0x100003C78, symSize: 0xC8 }
+  - { offsetInCU: 0x186, offset: 0x186, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x214, symBinAddr: 0x100003D40, symSize: 0x1B8 }
+...

@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/namsulee/source/hero_algo/test2/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _initializeDirectoryList, symObjAddr: 0x0, symBinAddr: 0x1000035F0, symSize: 0x18 }
+  - { offsetInCU: 0x80, offset: 0x80, size: 0x8, addend: 0x0, symName: _initializeDirectoryList, symObjAddr: 0x0, symBinAddr: 0x1000035F0, symSize: 0x18 }
+  - { offsetInCU: 0xA4, offset: 0xA4, size: 0x8, addend: 0x0, symName: _addDirectory, symObjAddr: 0x18, symBinAddr: 0x100003608, symSize: 0x124 }
+  - { offsetInCU: 0x10E, offset: 0x10E, size: 0x8, addend: 0x0, symName: _removeDirectory, symObjAddr: 0x13C, symBinAddr: 0x10000372C, symSize: 0xC4 }
+  - { offsetInCU: 0x15C, offset: 0x15C, size: 0x8, addend: 0x0, symName: _convertDirectoryListToArray, symObjAddr: 0x200, symBinAddr: 0x1000037F0, symSize: 0x10C }
+  - { offsetInCU: 0x1D8, offset: 0x1D8, size: 0x8, addend: 0x0, symName: _copyDirectory, symObjAddr: 0x30C, symBinAddr: 0x1000038FC, symSize: 0x228 }
+  - { offsetInCU: 0x29C, offset: 0x29C, size: 0x8, addend: 0x0, symName: _executeCommands, symObjAddr: 0x534, symBinAddr: 0x100003B24, symSize: 0x190 }
+  - { offsetInCU: 0x33F, offset: 0x33F, size: 0x8, addend: 0x0, symName: _solution, symObjAddr: 0x6C4, symBinAddr: 0x100003CB4, symSize: 0xA0 }
+  - { offsetInCU: 0x3D7, offset: 0x3D7, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x764, symBinAddr: 0x100003D54, symSize: 0x158 }
+...
