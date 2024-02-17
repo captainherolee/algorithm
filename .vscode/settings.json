@@ -67,5 +67,6 @@
         "concepts": "cpp",
         "algorithm": "cpp",
         "map": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
